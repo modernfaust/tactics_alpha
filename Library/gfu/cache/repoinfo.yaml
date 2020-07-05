@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-07-01T12:28:25.391-04:00
-  initializedAtString: 2020-07-01T12:28:25.391-04:00
+  lastUpdatedAtString: 2020-07-05T14:59:11.804-04:00
+  initializedAtString: 2020-07-05T13:57:19.498-04:00
   currentGitRemote:
     name: origin
-    url: https://github.com/modernfaust/tacticsalpha
+    url: https://github.com/modernfaust/tactics_alpha.git
     login: 
     user: 
     host: 
@@ -34,5 +34,5 @@ MonoBehaviour:
     trackingBranch: 
   currentConfigRemote:
     name: origin
-    url: https://github.com/modernfaust/tacticsalpha
+    url: https://github.com/modernfaust/tactics_alpha.git
   currentHead: 
