@@ -36,16 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Actions\Actions.cs" />
+     <Compile Include="Assets\Actions\Combat.cs" />
      <Compile Include="Assets\Actions\NPCMove.cs" />
      <Compile Include="Assets\Actions\PlayerMove.cs" />
      <Compile Include="Assets\Actions\TacticsMove.cs" />
+     <Compile Include="Assets\Actions\Unit.cs" />
      <Compile Include="Assets\Objects\DashPanel.cs" />
      <Compile Include="Assets\Objects\MenuScript.cs" />
      <Compile Include="Assets\Objects\TacticsCamera.cs" />
      <Compile Include="Assets\Objects\Tile.cs" />
      <Compile Include="Assets\Objects\TurnManager.cs" />
+     <Compile Include="Assets\UI\ActionsPanel.cs" />
      <Compile Include="Assets\Units\Class.cs" />
-     <Compile Include="Assets\Units\Unit.cs" />
      <Compile Include="Assets\Units\Warrior.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-07-06T11:17:04.877-04:00
-  initializedAtString: 2020-07-06T11:17:04.082-04:00
+  lastUpdatedAtString: 2020-07-07T17:11:43.746-04:00
+  initializedAtString: 2020-07-07T17:11:43.746-04:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: E:\tactics\tacticsalpha\Assembly-CSharp.csproj
@@ -22,9 +22,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Actions.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Actions.meta
-    projectPath: Assets\Actions.meta
+  - path: Assets\Actions\Actions.cs
+    fullPath: E:\tactics\tacticsalpha\Assets\Actions\Actions.cs
+    projectPath: Assets\Actions\Actions.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Actions\Actions.cs.meta
+    fullPath: E:\tactics\tacticsalpha\Assets\Actions\Actions.cs.meta
+    projectPath: Assets\Actions\Actions.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Actions\Combat.cs
+    fullPath: E:\tactics\tacticsalpha\Assets\Actions\Combat.cs
+    projectPath: Assets\Actions\Combat.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Actions\Combat.cs.meta
+    fullPath: E:\tactics\tacticsalpha\Assets\Actions\Combat.cs.meta
+    projectPath: Assets\Actions\Combat.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -32,113 +50,29 @@ MonoBehaviour:
     fullPath: E:\tactics\tacticsalpha\Assets\Actions\NPCMove.cs
     projectPath: Assets\Actions\NPCMove.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Actions\NPCMove.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Actions\NPCMove.cs.meta
-    projectPath: Assets\Actions\NPCMove.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Actions\PlayerMove.cs
     fullPath: E:\tactics\tacticsalpha\Assets\Actions\PlayerMove.cs
     projectPath: Assets\Actions\PlayerMove.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Actions\PlayerMove.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Actions\PlayerMove.cs.meta
-    projectPath: Assets\Actions\PlayerMove.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Actions\TacticsMove.cs
     fullPath: E:\tactics\tacticsalpha\Assets\Actions\TacticsMove.cs
     projectPath: Assets\Actions\TacticsMove.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Actions\TacticsMove.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Actions\TacticsMove.cs.meta
-    projectPath: Assets\Actions\TacticsMove.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MenuScript.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\MenuScript.cs
-    projectPath: Assets\MenuScript.cs
-    originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\MenuScript.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\MenuScript.cs.meta
-    projectPath: Assets\MenuScript.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\NPCMove.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\NPCMove.cs
-    projectPath: Assets\NPCMove.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\NPCMove.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\NPCMove.cs.meta
-    projectPath: Assets\NPCMove.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Objects.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects.meta
-    projectPath: Assets\Objects.meta
+    workTreeStatus: 3
+  - path: Assets\Actions\Unit.cs
+    fullPath: E:\tactics\tacticsalpha\Assets\Actions\Unit.cs
+    projectPath: Assets\Actions\Unit.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Objects\DashPanel.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\DashPanel.cs
-    projectPath: Assets\Objects\DashPanel.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Objects\DashPanel.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\DashPanel.cs.meta
-    projectPath: Assets\Objects\DashPanel.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Objects\MenuScript.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\MenuScript.cs
-    projectPath: Assets\Objects\MenuScript.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Objects\MenuScript.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\MenuScript.cs.meta
-    projectPath: Assets\Objects\MenuScript.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Objects\TacticsCamera.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\TacticsCamera.cs
-    projectPath: Assets\Objects\TacticsCamera.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Objects\TacticsCamera.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\TacticsCamera.cs.meta
-    projectPath: Assets\Objects\TacticsCamera.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Objects\Tile.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\Tile.cs
-    projectPath: Assets\Objects\Tile.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Objects\Tile.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\Tile.cs.meta
-    projectPath: Assets\Objects\Tile.cs.meta
+  - path: Assets\Actions\Unit.cs.meta
+    fullPath: E:\tactics\tacticsalpha\Assets\Actions\Unit.cs.meta
+    projectPath: Assets\Actions\Unit.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -146,95 +80,41 @@ MonoBehaviour:
     fullPath: E:\tactics\tacticsalpha\Assets\Objects\TurnManager.cs
     projectPath: Assets\Objects\TurnManager.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Objects\TurnManager.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Objects\TurnManager.cs.meta
-    projectPath: Assets\Objects\TurnManager.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PlayerMove.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\PlayerMove.cs
-    projectPath: Assets\PlayerMove.cs
-    originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\PlayerMove.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\PlayerMove.cs.meta
-    projectPath: Assets\PlayerMove.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\TacticsCamera.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\TacticsCamera.cs
-    projectPath: Assets\TacticsCamera.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\TacticsCamera.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\TacticsCamera.cs.meta
-    projectPath: Assets\TacticsCamera.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\TacticsMove.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\TacticsMove.cs
-    projectPath: Assets\TacticsMove.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\TacticsMove.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\TacticsMove.cs.meta
-    projectPath: Assets\TacticsMove.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Assets\Test.unity
     fullPath: E:\tactics\tacticsalpha\Assets\Test.unity
     projectPath: Assets\Test.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Tile.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\Tile.cs
-    projectPath: Assets\Tile.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Tile.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Tile.cs.meta
-    projectPath: Assets\Tile.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\TurnManager.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\TurnManager.cs
-    projectPath: Assets\TurnManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\TurnManager.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\TurnManager.cs.meta
-    projectPath: Assets\TurnManager.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Units.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Units.meta
-    projectPath: Assets\Units.meta
+  - path: Assets\UI.meta
+    fullPath: E:\tactics\tacticsalpha\Assets\UI.meta
+    projectPath: Assets\UI.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Units\Class.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\Units\Class.cs
-    projectPath: Assets\Units\Class.cs
+  - path: Assets\UI\ActionsPanel.cs
+    fullPath: E:\tactics\tacticsalpha\Assets\UI\ActionsPanel.cs
+    projectPath: Assets\UI\ActionsPanel.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Units\Class.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Units\Class.cs.meta
-    projectPath: Assets\Units\Class.cs.meta
+  - path: Assets\UI\ActionsPanel.cs.meta
+    fullPath: E:\tactics\tacticsalpha\Assets\UI\ActionsPanel.cs.meta
+    projectPath: Assets\UI\ActionsPanel.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\MoveButton.prefab
+    fullPath: E:\tactics\tacticsalpha\Assets\UI\MoveButton.prefab
+    projectPath: Assets\UI\MoveButton.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\MoveButton.prefab.meta
+    fullPath: E:\tactics\tacticsalpha\Assets\UI\MoveButton.prefab.meta
+    projectPath: Assets\UI\MoveButton.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -242,26 +122,14 @@ MonoBehaviour:
     fullPath: E:\tactics\tacticsalpha\Assets\Units\Unit.cs
     projectPath: Assets\Units\Unit.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Units\Unit.cs.meta
     fullPath: E:\tactics\tacticsalpha\Assets\Units\Unit.cs.meta
     projectPath: Assets\Units\Unit.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Units\Warrior.cs
-    fullPath: E:\tactics\tacticsalpha\Assets\Units\Warrior.cs
-    projectPath: Assets\Units\Warrior.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Units\Warrior.cs.meta
-    fullPath: E:\tactics\tacticsalpha\Assets\Units\Warrior.cs.meta
-    projectPath: Assets\Units\Warrior.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\ArtifactDB
     fullPath: E:\tactics\tacticsalpha\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -271,6 +139,12 @@ MonoBehaviour:
   - path: Library\CurrentLayout-default.dwlt
     fullPath: E:\tactics\tacticsalpha\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorSnapSettings.asset
+    fullPath: E:\tactics\tacticsalpha\Library\EditorSnapSettings.asset
+    projectPath: Library\EditorSnapSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -304,9 +178,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\SceneVisibilityState.asset
-    fullPath: E:\tactics\tacticsalpha\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: E:\tactics\tacticsalpha\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

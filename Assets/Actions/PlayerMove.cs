@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class PlayerMove : TacticsMove 
 {
-	// Use this for initialization
-
-	void Start () 
-	{
-        Init();
-	}
 	
 	// Update is called once per frame
+
 	void Update () 
 	{
         Debug.DrawRay(transform.position, transform.forward);
@@ -23,17 +18,21 @@ public class PlayerMove : TacticsMove
 
         if (!moving)
         {
-            FindSelectableTiles();
-            CheckMouse();
+            if (executeMove){
+                Debug.Log("executeMove is True");
+                FindSelectableTiles();
+                CheckMousetoMove();
+            }
         }
         else
         {
             Move();
+            
         }
         
 	}
 
-    void CheckMouse()
+    void CheckMousetoMove()
     {
         if (Input.GetMouseButtonUp(0))
         {
@@ -53,5 +52,10 @@ public class PlayerMove : TacticsMove
                 }
             }
         }
+    }
+
+    void CheckMousetoAttack()
+    {
+        return;
     }
 }

@@ -5,12 +5,6 @@ using UnityEngine;
 public class NPCMove : TacticsMove 
 {
     GameObject target;
-
-	// Use this for initialization
-	void Start () 
-	{
-        Init();
-	}
 	
 	// Update is called once per frame
 	void Update () 
@@ -43,7 +37,7 @@ public class NPCMove : TacticsMove
     
     void FindNearestTarget()
     {
-        //this ONLY looks for the nearest player unit. Replace this with a more sophisticated method
+        //this ONLY looks for the nearest player unit. Replace this with a smarter heuristic
         GameObject[] targets = GameObject.FindGameObjectsWithTag("Player");
 
         GameObject nearest = null;

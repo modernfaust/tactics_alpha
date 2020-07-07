@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class TurnManager : MonoBehaviour 
 {
-    static Dictionary<string, List<TacticsMove>> units = new Dictionary<string, List<TacticsMove>>();
+    static Dictionary<string, List<Unit>> units = new Dictionary<string, List<Unit>>();
     static Queue<string> turnKey = new Queue<string>();
-    static Queue<TacticsMove> turnTeam = new Queue<TacticsMove>();
+    static Queue<Unit> turnTeam = new Queue<Unit>();
 
 	// Use this for initialization
 	void Start () 
@@ -25,9 +25,9 @@ public class TurnManager : MonoBehaviour
 
     static void InitTeamTurnQueue()
     {
-        List<TacticsMove> teamList = units[turnKey.Peek()];
+        List<Unit> teamList = units[turnKey.Peek()];
 
-        foreach (TacticsMove unit in teamList)
+        foreach (Unit unit in teamList)
         {
             turnTeam.Enqueue(unit);
         }
@@ -45,7 +45,7 @@ public class TurnManager : MonoBehaviour
 
     public static void EndTurn()
     {
-        TacticsMove unit = turnTeam.Dequeue();
+        Unit unit = turnTeam.Dequeue();
         unit.EndTurn();
 
         if (turnTeam.Count > 0)
@@ -60,14 +60,14 @@ public class TurnManager : MonoBehaviour
         }
     }
 
-    public static void AddUnit(TacticsMove unit)
+    public static void AddUnit(Unit unit)
     {
         //Adds units NOT on any basis except by Player/NPC tags respectively
-        List<TacticsMove> list;
+        List<Unit> list;
 
         if (!units.ContainsKey(unit.tag))
         {
-            list = new List<TacticsMove>();
+            list = new List<Unit>();
             units[unit.tag] = list;
 
             if (!turnKey.Contains(unit.tag))
